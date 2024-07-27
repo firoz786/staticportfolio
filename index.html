@@ -1,334 +1,360 @@
 <!DOCTYPE html>
-<html class="no-js" lang="en">
-
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>My Portfolio</title>
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <link rel="icon" href="favicon.ico" type="image/x-icon">
-    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
-    <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/styles.css" rel="stylesheet">
-</head>
-
-<body>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Firoz Alam's Portfolio</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css" />
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/styles.css" rel="stylesheet" />
+    <style>
+      /* Inline styles for contact form */
+      #contact {
+        padding: 40px;
+        background-color: #f9f9f9;
+      }
+      #contact h2 {
+        font-size: 24px;
+        margin-bottom: 20px;
+        color: #007bff;
+      }
+      #contact-form {
+        max-width: 600px;
+        margin: 0 auto;
+      }
+      form {
+        display: flex;
+        flex-direction: column;
+      }
+      input[type="email"],
+      textarea {
+        padding: 10px;
+        margin-bottom: 15px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        font-size: 16px;
+        width: 100%;
+      }
+      button {
+        padding: 10px;
+        background-color: #007bff;
+        border: none;
+        border-radius: 4px;
+        color: white;
+        font-size: 16px;
+        cursor: pointer;
+      }
+      button:hover {
+        background-color: #0056b3;
+      }
+      .btn-rounded-white {
+        display: inline-block;
+        padding: 10px 20px;
+        border: 2px solid #000;
+        border-radius: 25px;
+        color: #000;
+        text-decoration: none;
+        background-color: #fff;
+        font-weight: bold;
+      }
+      .btn-rounded-white:hover {
+        background-color: #f0f0f0;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Mobile Menu Toggle -->
     <div id="mobile-menu-open" class="shadow-large">
-        <i class="fa fa-bars" aria-hidden="true"></i>
+      <i class="fa fa-bars" aria-hidden="true"></i>
     </div>
-    <!-- End #mobile-menu-toggle -->
+
+    <!-- Header -->
     <header>
-        <div id="mobile-menu-close">
-            <span>Close</span> <i class="fa fa-times" aria-hidden="true"></i>
-        </div>
-        <ul id="menu" class="shadow">
-            <li>
-                <a href="#about">About</a>
-            </li>
-            <li>
-                <a href="#experience">Experience</a>
-            </li>
-            <li>
-                <a href="#education">Education</a>
-            </li>
-            <li>
-                <a href="#projects">Projects</a>
-            </li>
-            <li>
-                <a href="#skills">Skills</a>
-            </li>
-            <li>
-                <a href="#contact">Contact</a>
-            </li>
-        </ul>
+      <div id="mobile-menu-close">
+        <span>Close</span> <i class="fa fa-times" aria-hidden="true"></i>
+      </div>
+      <ul id="menu" class="shadow">
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
     </header>
-    <!-- End header -->
 
+    <!-- Lead Section -->
     <div id="lead">
-        <!DOCTYPE html>
-        <html lang="en">
-
-        <head>
-            <meta charset="UTF-8">
-            <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <title>Firoz Alam's Portfolio</title>
-            <style>
-                .btn-rounded-white {
-                    display: inline-block;
-                    padding: 10px 20px;
-                    border: 2px solid #000;
-                    border-radius: 25px;
-                    color: #000;
-                    text-decoration: none;
-                    background-color: #fff;
-                    font-weight: bold;
-                }
-
-                .btn-rounded-white:hover {
-                    background-color: #f0f0f0;
-                }
-            </style>
-        </head>
-
-        <body>
-            <div id="lead-content">
-                <h1>Firoz Alam</h1>
-                <h2>Senior Software AWS/Backend Engineer</h2>
-                <!-- Link to a locally hosted PDF file -->
-                <a href="Firoz_Alam_s_Resume.pdf" class="btn-rounded-white" target="_blank">Download/View Resume</a>
-            </div>
-        </body>
-
-        </html>
-
-        <!-- End #lead-content -->
-
-        <div id="lead-overlay"></div>
-
-        <div id="lead-down">
-            <span>
-                <i class="fa fa-chevron-down" aria-hidden="true"></i>
-            </span>
-        </div>
-        <!-- End #lead-down -->
+      <div id="lead-content">
+        <h1>Firoz Alam</h1>
+        <h2>Senior Software AWS/Backend Engineer</h2>
+        <a
+          href="Firoz_Alam_s_Resume.pdf"
+          class="btn-rounded-white"
+          target="_blank"
+          >Download/View Resume</a
+        >
+      </div>
+      <div id="lead-overlay"></div>
+      <div id="lead-down">
+        <span><i class="fa fa-chevron-down" aria-hidden="true"></i></span>
+      </div>
     </div>
-    <!-- End #lead -->
 
+    <!-- About Section -->
     <div id="about">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4">
-                    <h2 class="heading">About Me</h2>
-                </div>
-                <div class="col-md-8">
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat
-                        laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget
-                        efficitur libero. Morbi dapibus porta quam laoreet placerat. Donec
-                        eu vehicula neque. Donec viverra lorem nunc, tempus euismod eros sollicitudin ut. Quisque et
-                        tincidunt libero. Donec id pharetra justo. Proin euismod lacinia dolor, eu scelerisque justo
-                        tempus pharetra. Vivamus nunc justo, finibus
-                        ut nisl sed, euismod rhoncus nulla. Proin sed magna egestas, egestas ante et, congue eros. In
-                        consequat, mauris dapibus tincidunt suscipit, ex libero aliquet diam, at maximus risus enim non
-                        leo.
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- End #about -->
-
-    <div id="experience" class="background-alt">
-        <h2 class="heading">Experience</h2>
-        <div id="experience-timeline">
-            <div data-date="September 2015 – September 2016">
-                <h3>Employer Name</h3>
-                <h4>Job Title</h4>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat
-                    laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur
-                    libero. Morbi dapibus porta quam laoreet placerat.
-                </p>
-            </div>
-
-            <div data-date="September 2015 – September 2016">
-                <h3>Employer Name</h3>
-                <h4>Job Title</h4>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat
-                    laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur
-                    libero. Morbi dapibus porta quam laoreet placerat.
-                </p>
-            </div>
-
-            <div data-date="September 2015 – September 2016">
-                <h3>Employer Name</h3>
-                <h4>Job Title</h4>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat
-                    laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur
-                    libero. Morbi dapibus porta quam laoreet placerat.
-                </p>
-            </div>
-        </div>
-    </div>
-    <!-- End #experience -->
-
-    <div id="education">
-        <h2 class="heading">Education</h2>
-        <div class="education-block">
-            <h3>University of Ottawa</h3>
-            <span class="education-date">Sept 2016 - Sept 2017</span>
-            <h4>Bachelor of Science in Computer Science</h4>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <h2 class="heading">About Me</h2>
+          </div>
+          <div class="col-md-8">
             <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet
-                urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi
-                dapibus porta quam laoreet placerat.
+              Results-driven AWS and backend full stack engineer with extensive
+              experience in designing and implementing scalable cloud-based
+              solutions. Proficient in AWS services, microservices architecture,
+              and backend development. Adept at optimizing performance, ensuring
+              security, and integrating complex systems. Committed to delivering
+              high-quality, innovative solutions that drive business growth and
+              enhance user experiences. Passionate about leveraging technology
+              to solve challenging problems.
             </p>
+          </div>
         </div>
-        <!-- End .education-block -->
-
-        <div class="education-block">
-            <h3>University of Ottawa</h3>
-            <span class="education-date">Sept 2016 - Sept 2017</span>
-            <h4>Bachelor of Science in Computer Science</h4>
-            <ul>
-                <li>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </li>
-                <li>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </li>
-                <li>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </li>
-            </ul>
-        </div>
-        <!-- End .education-block -->
+      </div>
     </div>
-    <!-- End #education -->
 
+    <!-- Experience Section -->
+    <div id="experience" class="background-alt">
+      <h2 class="heading">Experience</h2>
+      <div id="experience-timeline">
+        <div data-date="September 2022 – Present">
+          <h3>People Tech Group</h3>
+          <h4>Senior Software Developer</h4>
+          <p>
+            Worked extensively with AWS, gaining hands-on experience with S3,
+            EC2, SNS, SQS, Step Functions, Lambda, DynamoDB, IAM roles, and
+            CloudTrail/CloudWatch.
+            <br /><br />
+            - Implemented an automated job using AWS Step Functions to process
+            data files uploaded to S3. The data was then inserted into DynamoDB
+            using intermediate Lambda functions, with SNS and SQS for messaging
+            and CloudTrail for logging API calls.
+          </p>
+        </div>
+        <div data-date="June 2021 – September 2022">
+          <h3>Amdocs</h3>
+          <h4>Software Developer</h4>
+          <p>
+            Developed several internal systems including order entry/management
+            tools, conversion/revenue reporting, and production workflow
+            tracking. Designed custom REST APIs using Java and Spring Boot.
+            <br /><br />
+            - Client: Three (UK) - Mobile Telecommunications Enterprise
+            <br />
+            - Role: Backend Developer. Designed and developed efficient software
+            with a focus on concise code and debugging end-to-end from front to
+            back. Configured project APIs after reviewing High-Level Design
+            (HLD).
+            <br />
+            - Responsibilities included monitoring production deployments, unit
+            API testing, and supporting regression, shakeout, and UAT testing.
+            <br />
+            - Technologies used: Java 1.8, Spring Boot, Maven, Microservices,
+            Web Services, REST API, Oracle SQL, Jenkins, Perforce.
+          </p>
+        </div>
+        <div data-date="June 2016 – June 2021">
+          <h3>Cognizant</h3>
+          <h4>Associate</h4>
+          <p>
+            Worked on the Enterprise Producer Application for MetLife, focusing
+            on Application Development and Management.
+            <br /><br />
+            - Application Overview: EPI is a centralized repository of producers
+            with various franchises, storing agents' demographic and
+            organizational hierarchical information. Data is accessed by
+            multiple upstream and downstream systems via web services or feed
+            files.
+            <br />
+            - Tools used: IBM Data Studio, AppDynamics (application health
+            monitoring), ServiceNow (ticket tracking), UrbanCode (integration,
+            development, and deployment), IBM Workload Scheduler (job
+            monitoring), WS FTP (secure file transfer monitoring).
+            <br />
+            - Technologies used: Java, JSP, Hibernate, DB2, SQL, PL/SQL, HTML5,
+            CSS3, JavaScript.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Education Section -->
+    <div id="education">
+      <h2 class="heading">Education</h2>
+      <div class="education-block">
+        <h3>SRM University</h3>
+        <span class="education-date">Jun 2016</span>
+        <h4>B.Tech. in Computer Science</h4>
+        <p>
+          Graduated with a CGPA of 8.8. Acquired extensive knowledge and skills
+          in various aspects of computer science, including programming,
+          algorithms, and software engineering.
+        </p>
+      </div>
+      <div class="education-block">
+        <h3>Park Mount Public School</h3>
+        <span class="education-date">Dec 2012</span>
+        <h4>12th Science (PCM)</h4>
+        <p>
+          Achieved a percentage of 82% in the Science stream with a focus on
+          Physics, Chemistry, and Mathematics. Developed a strong foundation in
+          analytical and problem-solving skills.
+        </p>
+      </div>
+    </div>
+
+    <!-- Projects Section -->
     <div id="projects" class="background-alt">
-        <h2 class="heading">Projects</h2>
-        <div class="container">
-            <div class="row">
-                <div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="images/project.jpg" />
-                    </div>
-                    <!-- End .project-image -->
-                    <div class="project-info">
-                        <h3>Project Name Here</h3>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam
-                            volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce
-                            eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
-                        </p>
-                        <a href="#">View Project</a>
-                    </div>
-                    <!-- End .project-info -->
-                </div>
-                <!-- End .project -->
-
-                <div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="images/project.jpg" />
-                    </div>
-                    <!-- End .project-image -->
-                    <div class="project-info">
-                        <h3>Project Name Here</h3>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam
-                            volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce
-                            eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
-                        </p>
-                        <a href="#">View Project</a>
-                    </div>
-                    <!-- End .project-info -->
-                </div>
-                <!-- End .project -->
+      <h2 class="heading">Projects</h2>
+      <div class="container">
+        <div class="row">
+          <div class="project shadow-large">
+            <div class="project-image">
+              <img src="images/project.jpg" alt="Project Image" />
             </div>
+            <div class="project-info">
+              <h3>Project Name Here</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut
+                tortor nec nulla commodo malesuada sit amet vel lacus. Fusce
+                eget efficitur libero. Morbi dapibus porta quam laoreet
+                placerat.
+              </p>
+              <a href="#">View Project</a>
+            </div>
+          </div>
+          <div class="project shadow-large">
+            <div class="project-image">
+              <img src="images/project.jpg" alt="Project Image" />
+            </div>
+            <div class="project-info">
+              <h3>Project Name Here</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut
+                tortor nec nulla commodo malesuada sit amet vel lacus. Fusce
+                eget efficitur libero. Morbi dapibus porta quam laoreet
+                placerat.
+              </p>
+              <a href="#">View Project</a>
+            </div>
+          </div>
         </div>
+      </div>
     </div>
-    <!-- End #projects -->
 
+    <!-- Skills Section -->
     <div id="skills">
-        <h2 class="heading">Skills</h2>
-        <ul>
-            <li>JavaScript</li>
-            <li>Python</li>
-            <li>Ruby</li>
-            <li>Go</li>
-            <li>Node.js</li>
-            <li>AngularJs</li>
-            <li>React</li>
-            <li>Elixir</li>
-            <li>Java</li>
-            <li>C</li>
-            <li>C#</li>
-            <li>C++</li>
-            <li>Ruby on Rails</li>
-            <li>JavaScript</li>
-            <li>Python</li>
-            <li>Ruby</li>
-            <li>Go</li>
-            <li>Node.js</li>
-            <li>AngularJs</li>
-            <li>React</li>
-            <li>Elixir</li>
-            <li>Java</li>
-            <li>C</li>
-            <li>C#</li>
-            <li>C++</li>
-            <li>Ruby on Rails</li>
-        </ul>
+      <h2 class="heading">Skills</h2>
+      <ul>
+        <li>AWS</li>
+        <li>Java</li>
+        <li>Typescript</li>
+        <li>React</li>
+        <li>DSA</li>
+      </ul>
     </div>
-    <!-- End #skills -->
 
+    <!-- Contact Section -->
     <div id="contact">
-        <h2>Get in Touch</h2>
-        <div id="contact-form">
-            <form method="POST" action="https://formspree.io/email@email.com">
-                <input type="hidden" name="_subject" value="Contact request from personal website" />
-                <input type="email" name="_replyto" placeholder="Your email" required>
-                <textarea name="message" placeholder="Your message" required></textarea>
-                <button type="submit">Send</button>
-            </form>
-        </div>
-        <!-- End #contact-form -->
+      <h2>Get in Touch</h2>
+      <div id="contact-form">
+        <form id="contactForm">
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Your email"
+            required
+          />
+          <textarea
+            id="message"
+            name="message"
+            placeholder="Your message"
+            required
+          ></textarea>
+          <button type="button" onclick="sendEmail()">Send</button>
+        </form>
+      </div>
     </div>
-    <!-- End #contact -->
 
+    <!-- Footer -->
     <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-5 copyright">
-                    <p>
-                        Copyright &copy; <span id="current-year">2022</span> YOUR NAME
-                    </p>
-                </div>
-                <div class="col-sm-2 top">
-                    <span id="to-top">
-                        <i class="fa fa-chevron-up" aria-hidden="true"></i>
-                    </span>
-                </div>
-                <div class="col-sm-5 social">
-                    <ul>
-                        <li>
-                            <a href="https://github.com/" target="_blank"><i class="fa fa-github"
-                                    aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://stackoverflow.com/" target="_blank"><i class="fa fa-stack-overflow"
-                                    aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://linkedin.com/" target="_blank"><i class="fa fa-linkedin"
-                                    aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook"
-                                    aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter"
-                                    aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://plus.google.com/" target="_blank"><i class="fa fa-google-plus"
-                                    aria-hidden="true"></i></a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-5 copyright">
+            <p>
+              Copyright &copy; <span id="current-year">2024</span> YOUR NAME
+            </p>
+          </div>
+          <div class="col-sm-2 top">
+            <span id="to-top">
+              <i class="fa fa-chevron-up" aria-hidden="true"></i>
+            </span>
+          </div>
+          <div class="col-sm-5 social">
+            <ul>
+              <li>
+                <a href="https://github.com/firoz786" target="_blank"
+                  ><i class="fa fa-github" aria-hidden="true"></i
+                ></a>
+              </li>
+              <li>
+                <a href="https://stackoverflow.com/users/16069714/firoz-alam" target="_blank"
+                  ><i class="fa fa-stack-overflow" aria-hidden="true"></i
+                ></a>
+              </li>
+              <li>
+                <a href="https://www.linkedin.com/in/firoz-alam-8b9034b1/" target="_blank"
+                  ><i class="fa fa-linkedin" aria-hidden="true"></i
+                ></a>
+              </li>
+              <li>
+                <a href="https://www.facebook.com/firozalam1995/" target="_blank"
+                  ><i class="fa fa-facebook" aria-hidden="true"></i
+                ></a>
+              </li>ß
+            </ul>
+          </div>
         </div>
+      </div>
     </footer>
-    <!-- End footer -->
 
+    <!-- JavaScript -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="js/scripts.min.js"></script>
-</body>
-
+    <script>
+      function sendEmail() {
+        var email = document.getElementById("email").value;
+        var message = document.getElementById("message").value;
+        var subject = "Get in touch with Firoz";
+        var body = "Email: " + email + "\n\nMessage: " + message;
+        var mailtoLink =
+          "mailto:firozalam.786123@gmail.com?subject=" +
+          encodeURIComponent(subject) +
+          "&body=" +
+          encodeURIComponent(body);
+        window.location.href = mailtoLink;
+      }
+    </script>
+  </body>
 </html>
